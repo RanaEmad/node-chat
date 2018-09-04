@@ -1,0 +1,29 @@
+{
+  "name": "node-chat",
+  "version": "1.0.0",
+  "description": "A simple real time chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanaEmad/node-chat.git"
+  },
+  "keywords": [
+    "real",
+    "time",
+    "chat",
+    "node.js"
+  ],
+  "author": "Rana Emad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RanaEmad/node-chat/issues"
+  },
+  "homepage": "https://github.com/RanaEmad/node-chat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
