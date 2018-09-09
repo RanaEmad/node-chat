@@ -19,3 +19,9 @@ var server=app.listen(process.env.PORT || 3000, function () {
 });
 
 io.attach(server);
+
+io.on('connection', function(socket) {
+  socket.on('sendMsg', function(data) {
+    io.emit('updateMsgs', data);
+  });
+});
