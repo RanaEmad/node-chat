@@ -10,7 +10,9 @@ $(document).ready(function(){
       $("#msg").val("");
       $("#msg").focus();
     }); //chatform event
-    
+    socket.on('updateMsgs', function(data) {
+      $(".msgs").append("<p>"+data.msg+"</p>");
+   }); //updateMessages
 }); //socket
 
 });
