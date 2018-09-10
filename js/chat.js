@@ -1,5 +1,11 @@
 $(document).ready(function(){
   var socket = io();
+  $('#msg').keypress(function (e) {
+  if (e.which == 13) {
+    $('#chatForm').submit();
+    return false;   
+  }
+});
   socket.on('connect', function() {
 
     $("#chatForm").submit(function(e) {
