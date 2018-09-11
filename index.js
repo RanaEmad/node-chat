@@ -5,6 +5,8 @@ var io = require('socket.io')();
 
 //set js as static
 app.use(express.static(path.join(__dirname,'js')));
+//set css as static
+app.use(express.static(path.join(__dirname,'css')));
 //set view engine
 app.set("view engine","ejs");
 app.set("views","views");
