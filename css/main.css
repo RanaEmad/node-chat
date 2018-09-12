@@ -5,11 +5,12 @@ html {
   box-sizing: inherit;
 }
 body{
-  background-color: #fbfbfb;
+  background-color: #e2e2e2;
 }
 h1{
   text-align: center;
-  color: #1e1e58;
+  /* color: #1e1e58; */
+  color: #0c3b61;
 }
 textarea, input {
     /* -webkit-box-sizing: border-box;
@@ -32,16 +33,16 @@ textarea, input {
 }
 #msg{
   width: 100%;
-  border: 1px solid #1e1e58;
+  border: 1px solid white;
   margin:0;
   margin-top: 3%;
-  padding: 0;
+  padding: 1%;
   border-radius: 1%;
 }
 #send{
   width: 100%;
-  background-color: #1e1e58;
+  background-color: #2b6492;
   color: white;
   padding: 1%;
-  border-color: #1e1e58;
+  border: 1px solid #2b6492;
 }
